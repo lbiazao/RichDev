@@ -1,14 +1,19 @@
 .container_dashboard{
-    width: 70%;
-    border: 1px solid black;
+    width: 100%;
+   
 }
 .box_dashboard{
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
+    box-shadow: 3px 3px 3px  #888888;
+    background-color: white;
+    border-radius: 5px;
     padding: .5rem;
     margin: .8rem;
     align-items: center;
+}
+.title{
+    padding: 1rem;
 }
 .title_dashboard{
     display: flex;
@@ -26,4 +31,35 @@
 }
 .small_text{
     text-align: start;
+}
+.title_renda{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+   
+}
+.box_dashboard_renda{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3px 3px 3px  #888888;
+    background-color: rgb(27, 27, 27);
+    border-radius: 5px;
+    padding: .5rem;
+    margin: .8rem;
+    align-items: center;
+}
+.box_title_renda{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.small_text_renda{
+    text-align: start;
+    color: white;
+}
+.price_renda{
+    font-weight: bold;
+    color: white;
+    padding: 1rem;
 }

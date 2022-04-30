@@ -10,17 +10,18 @@ import Container from './components/layouts/Container'
 
 //pages
 import Dashboard from './components/pages/dashboard/Dashboard'
+import Painel from './components/pages/painel/Painel'
 
 function App() {
   return (
     <div className="App">
       <Router>
-       
-          <Container>
+        <Container>
             <Routes>
-              <Route path="/" element={<Dashboard/>} />
+            <Route path="/" element={<Painel/>} />
+              <Route path="/dashboard" element={<Dashboard/>} />
             </Routes>
-          </Container>
+        </Container>
       </Router>
     </div>
   );
